@@ -1,71 +1,78 @@
  Proje Özellikleri
  Kullanıcı Girişi ve Yetkilendirme
-
-Rol bazlı giriş sistemi
+ 
+ Rol bazlı giriş sistemi uygulanmıştır.
+Sistemde üç farklı kullanıcı rolü bulunmaktadır:
 
 Admin
 
-Çağri Personeli
+Çağrı Personeli
 
-Destek Personel
+Destek Personeli
 
-Kullanıcının rolüne göre erişilebilir ekranlar / işlemler kısıtlanır
+Kullanıcının rolüne göre erişebileceği ekranlar ve işlemler sınırlandırılmıştır.
 
-Kullanıcı adı & şifre kontrolü ile güvenli giriş
+Kullanıcı adı ve şifre kontrolü ile güvenli giriş sağlanmaktadır.
 
  Müşteri Yönetimi
 
-Müşteri ekleme / güncelleme / silme
+Müşteri ekleme, güncelleme ve silme işlemleri yapılabilmektedir.
 
-İletişim bilgileri takibi (telefon, e-posta vb.)
+Telefon, e-posta gibi iletişim bilgileri sistem üzerinden takip edilmektedir.
 
-Müşteri ile ilişkilendirilen talep ve hizmet geçmişi
+Müşteriye ait talep ve hizmet geçmişi görüntülenebilmektedir.
 
-DataGridView üzerinden listeleme ve seçim yapabilme
+Kayıtlar DataGridView üzerinden listelenmekte ve seçilebilmektedir.
 
  Personel Yönetimi
 
-Personel ekleme / güncelleme / silme
+Personel ekleme, güncelleme ve silme işlemleri yapılmaktadır.
 
-Personel rolü / uzmanlık alanı tanımlama
+Personellere rol ve uzmanlık alanı tanımlanabilmektedir.
 
-Taleplere personel atama (işin sorumlusu)
+Taleplere sorumlu personel atanabilmektedir.
 
-Personel bazlı işlem takibi 
+Personel bazlı yapılan işlemler raporlamaya uygun şekilde takip edilmektedir.
 
 Hizmet Yönetimi
 
-Hizmet ekleme / güncelleme / silme
+Hizmet ekleme, güncelleme ve silme işlemleri yapılabilmektedir.
 
-Hizmet açıklaması ve fiyat bilgileri
+Hizmetlere ait açıklama ve fiyat bilgileri tanımlanmıştır.
 
-Taleplerle entegre çalışma (talep oluştururken hizmet seçimi)
+Hizmetler, talep oluşturma sürecine entegre şekilde kullanılmaktadır.
 
  Talep Yönetimi (İş Emri Süreci)
 
-Müşteri ve hizmet seçimi ile talep oluşturma
+Müşteri ve hizmet seçilerek talep oluşturma işlemi yapılmaktadır.
 
-Talep türü ve durum takibi
+Talepler için durum takibi yapılmaktadır:
 
-Örn: Yeni / İşlemde / Tamamlandı
+Yeni
 
-Personel atama
+İşlemde
+
+Tamamlandı
+
+Taleplere personel atanabilmektedir.
+
+Talepler tarih bazlı olarak kayıt altına alınmaktadır.
 
 Tarih bazlı kayıt (oluşturma tarihi, güncelleme vb.)
 
-(Varsa) talep üzerinden satış/hizmet işlem kaydı mantığı
+
 
 Raporlama ve Dashboard
 
-Tarih aralığına göre filtreleme
+Tarih aralığına göre filtreleme yapılabilmektedir.
 
-Durum bazlı (Yeni/İşlemde/Tamamlandı) raporlama
+Durum bazlı (Yeni / İşlemde / Tamamlandı) raporlar alınabilmektedir.
 
-Hizmet bazlı raporlama
+Hizmet bazlı raporlama yapılabilmektedir.
 
-DataGridView ile rapor listeleme
+Raporlar DataGridView üzerinden listelenmektedir.
 
-İşletme performansını analiz etmeye yönelik özet ekranlar
+İşletme performansını analiz etmeye yönelik özet ekranlar bulunmaktadır.
 
  Mimari Yapı (N-Tier Architecture)
 
@@ -83,7 +90,7 @@ MySQL veritabanı işlemleri (CRUD), sorgular, bağlantı yönetimi
 Domain / Entities
 Veri modelleri (Customer, Staff, Service, Request/Talep vb.)
 
-Bu yapı sayesinde UI tarafı doğrudan SQL yazmaz; tüm süreç Service ve DAO üzerinden ilerler.
+Bu yapı sayesinde UI tarafı doğrudan SQL yazmaz; tüm süreç Service ve DAL üzerinden ilerler.
 
 Proje Yapısı
 CRMProjesi
@@ -107,7 +114,7 @@ Veritabanı: MySQL (phpMyAdmin)
 
 Mimari: N-Katmanlı Mimari (UI / BLL / DAL / Domain)
 
-Veri İşleme: DataTable 
+Veri İşleme: DataTable
 
 Versiyon Kontrol: Git & GitHub
 
