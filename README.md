@@ -156,7 +156,7 @@ Ad Soyad: Dilek Tombul
 
 Bölüm: Yönetim Bilişim Sistemleri
 
-🎥 Video
+ Video
 
 https://youtu.be/ddcExJbLC-A
 
