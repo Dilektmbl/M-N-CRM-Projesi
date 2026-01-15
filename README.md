@@ -1,5 +1,5 @@
-📌 Proje Özellikleri
-🔐 Kullanıcı Girişi ve Yetkilendirme
+ Proje Özellikleri
+ Kullanıcı Girişi ve Yetkilendirme
 
 Rol bazlı giriş sistemi
 
@@ -13,7 +13,7 @@ Kullanıcının rolüne göre erişilebilir ekranlar / işlemler kısıtlanır
 
 Kullanıcı adı & şifre kontrolü ile güvenli giriş
 
-👥 Müşteri Yönetimi
+ Müşteri Yönetimi
 
 Müşteri ekleme / güncelleme / silme
 
@@ -23,7 +23,7 @@ Müşteri ile ilişkilendirilen talep ve hizmet geçmişi
 
 DataGridView üzerinden listeleme ve seçim yapabilme
 
-🧑‍💼 Personel Yönetimi
+ Personel Yönetimi
 
 Personel ekleme / güncelleme / silme
 
@@ -33,7 +33,7 @@ Taleplere personel atama (işin sorumlusu)
 
 Personel bazlı işlem takibi 
 
-🛎️ Hizmet Yönetimi
+Hizmet Yönetimi
 
 Hizmet ekleme / güncelleme / silme
 
@@ -41,7 +41,7 @@ Hizmet açıklaması ve fiyat bilgileri
 
 Taleplerle entegre çalışma (talep oluştururken hizmet seçimi)
 
-📄 Talep Yönetimi (İş Emri Süreci)
+ Talep Yönetimi (İş Emri Süreci)
 
 Müşteri ve hizmet seçimi ile talep oluşturma
 
@@ -55,7 +55,7 @@ Tarih bazlı kayıt (oluşturma tarihi, güncelleme vb.)
 
 (Varsa) talep üzerinden satış/hizmet işlem kaydı mantığı
 
-📊 Raporlama ve Dashboard
+Raporlama ve Dashboard
 
 Tarih aralığına göre filtreleme
 
@@ -67,7 +67,7 @@ DataGridView ile rapor listeleme
 
 İşletme performansını analiz etmeye yönelik özet ekranlar
 
-📐 Mimari Yapı (N-Tier Architecture)
+ Mimari Yapı (N-Tier Architecture)
 
 Proje katmanlı mimari kullanılarak geliştirilmiştir:
 
@@ -85,7 +85,7 @@ Veri modelleri (Customer, Staff, Service, Request/Talep vb.)
 
 Bu yapı sayesinde UI tarafı doğrudan SQL yazmaz; tüm süreç Service ve DAO üzerinden ilerler.
 
-📂 Proje Yapısı
+Proje Yapısı
 CRMProjesi
 │
 ├── CRMProjesi.UI         → Windows Forms arayüzleri
@@ -97,7 +97,7 @@ CRMProjesi
 ├── Program.cs            → Uygulama başlangıç noktası
 └── CRMProjesi.sln
 
-🛠️ Kullanılan Teknolojiler
+ Kullanılan Teknolojiler
 
 Programlama Dili: C# (.NET Framework)
 
@@ -111,7 +111,7 @@ Veri İşleme: DataTable
 
 Versiyon Kontrol: Git & GitHub
 
-🚀 Kurulum ve Çalıştırma
+ Kurulum ve Çalıştırma
 1) Projeyi Klonlayın
 git clone https://github.com/Dilektmbl/CRM-Projesi
 
@@ -137,19 +137,19 @@ hizmet
 
 talep
 
-🎯 Projenin Amaçları
+ Projenin Amaçları
 
-✅ Müşteri ve hizmet süreçlerini dijitalleştirmek
+1) Müşteri ve hizmet süreçlerini dijitalleştirmek
 
-✅ İşletme içi iş akışını düzenlemek
+2) İşletme içi iş akışını düzenlemek
 
-✅ Manuel hataları azaltmak
+ 3) Manuel hataları azaltmak
 
-✅ Gerçek hayata uygun kurumsal bir CRM/Talep sistemi geliştirmek
+4) Gerçek hayata uygun kurumsal bir CRM/Talep sistemi geliştirmek
 
-✅ N-Katmanlı mimariyi uygulamalı öğrenmek
+5) N-Katmanlı mimariyi uygulamalı öğrenmek
 
-👤 Geliştirici
+Geliştirici
 
 Ad Soyad: Dilek Tombul 
 Üniversite: Bursa Uludağ Üniversitesi
@@ -160,6 +160,6 @@ Bölüm: Yönetim Bilişim Sistemleri
 
 https://youtu.be/ddcExJbLC-A
 
-📌 Not
+Not
 
 Bu proje eğitim ve akademik amaçlarla geliştirilmiştir.
