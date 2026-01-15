@@ -92,18 +92,6 @@ Veri modelleri (Customer, Staff, Service, Request/Talep vb.)
 
 Bu yapı sayesinde UI tarafı doğrudan SQL yazmaz; tüm süreç Service ve DAL üzerinden ilerler.
 
-Proje Yapısı
-CRMProjesi
-│
-├── CRMProjesi.UI         → Windows Forms arayüzleri
-├── CRMProjesi.BLL        → İş mantığı (Service katmanı)
-├── CRMProjesi.DAL        → Veritabanı işlemleri (DAO katmanı)
-├── CRMProjesi.Domain     → Veri modelleri (Entities)
-│
-├── App.config            → MySQL bağlantı ayarları
-├── Program.cs            → Uygulama başlangıç noktası
-└── CRMProjesi.sln
-
  Kullanılan Teknolojiler
 
 Programlama Dili: C# (.NET Framework)
